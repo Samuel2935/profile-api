@@ -1,4 +1,4 @@
-# profile-api-ts
+# profile-api
 
 Simple REST API returning profile info + dynamic cat fact.
 Stack: Node.js + Express + TypeScript, Jest, Supertest.
