@@ -18,4 +18,8 @@ app.get("/", (_req, res) => res.json({ status: "ok" }));
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
+  // log out the res 
+  console.log(`Health check at http://localhost:${PORT}`);
+  // log out the profile endpoint
+  console.log(`Profile endpoint at http://localhost:${PORT}/me`);
 });

@@ -5,13 +5,13 @@
   "main": "dist/app.js",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "lint": "eslint . --ext .ts",
-    "prepare-start": "npm run build && npm run start",
-    "start": "nodemon dist/app.js",
-    "dev": "nodemon src/app.ts",
-    "test": "jest --detectOpenHandles --forceExit"
-  },
+  "build": "tsc",
+  "lint": "eslint . --ext .ts",
+  "prepare-start": "npm run build && npm run start",
+  "start": "node dist/app.js",
+  "dev": "tsx watch src/app.ts",
+  "test": "jest --detectOpenHandles --forceExit"
+},
   "keywords": [],
   "author": "",
   "license": "MIT",
