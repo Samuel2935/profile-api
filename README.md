@@ -7,7 +7,7 @@ Stack: Node.js + Express + TypeScript, Jest, Supertest.
 GET `/me`
 
 ## Run locally
-1. `git clone <repo>`
+1. `git clone https://github.com/Samuel2935/profile-api.git`
 2. `cp .env.example .env` and edit values
 3. `npm install`
 4. `npm run dev`
